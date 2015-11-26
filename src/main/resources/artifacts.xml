@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts>
+
+	<artifact name="APIM_TRACE_STATS_APP" version="v1.0.0" type="carbon/application">
+
+		<dependency artifact="Eventstream_request" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="Eventstore_request" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="Eventreceiver_request" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+
+	</artifact>
+</artifacts>
